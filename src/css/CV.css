@@ -1,0 +1,52 @@
+.header {
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-content: center;
+    background-image: url(../img/1-header.jpg);
+    padding: 0px 20px;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #293A43;
+    opacity: .92;
+}
+
+.home {
+    text-align: center;
+    height: 0em;  
+    z-index: 1;
+    position: relative;
+    padding-right: 70em;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none; 
+    padding: 0;
+    
+}
+.resume {
+    padding-bottom: 35%;
+}
+
+.header-content {
+    padding: 0px 0px;
+}
+h2 {
+    padding: 2em;
+}
+.cvtext {
+    color: white;
+}
+.cvname {
+    color: white;
+    text-decoration: none;
+}

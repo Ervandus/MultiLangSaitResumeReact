@@ -1,0 +1,112 @@
+.resume {
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.certif {
+    opacity: 0.92;
+}
+.header {
+    min-height: 0vh;
+}
+
+.certificates-section {
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.certificates-item {
+    min-height: 40vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    transition: color .3s ease;
+    z-index: 1;
+        
+
+}
+.c1 {
+    background-image: url(../img/Cert/102.jpg);
+}
+.c2 {
+    background-image: url(../img/Cert/103.jpg);
+}
+.c3 {
+    background-image: url(../img/Cert/104.jpg);
+}
+.c4 {
+    background-image: url(../img/Cert/105.jpg);
+}
+.c5 {
+    background-image: url(../img/Cert/106.jpg);
+}
+.c6 {
+    background-image: url(../img/Cert/107.jpg);
+}
+.c7 {
+    background-image: url(../img/Cert/108.jpg);
+}
+.c8 {
+    background-image: url(../img/Cert/109.jpg);
+}
+.c9 {
+    background-image: url(../img/Cert/110.jpg);
+}
+.c10 {
+    background-image: url(../img/Cert/111.jpg);
+}
+.c11 {
+    background-image: url(../img/Cert/112.jpg);
+}
+.c12 {
+    background-image: url(../img/Cert/113.jpg);
+}
+.c13 {
+    background-image: url(../img/Cert/114.jpg);
+}
+.c14 {
+    background-image: url(../img/Cert/115.jpg);
+}
+.c15 {
+    background-image: url(../img/Cert/101.jpg);
+}
+
+
+.certificates-item:hover {
+    color: #F0650D;
+}
+
+.certificates-item:hover::before {
+    opacity: .85;
+}
+
+.certificates-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #293A43;
+    opacity: .35;
+    transition: opacity .5s ease;
+    
+}
+
+
+
+
+
+
+
+

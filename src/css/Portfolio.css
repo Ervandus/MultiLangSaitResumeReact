@@ -1,0 +1,30 @@
+.portfolio1 {
+    background-image: url(../img/slavianka.png);
+    height: 58vh;
+    
+}
+.portfolio2 {
+    background-image: url(../img/surf.jpg);
+    height: 58vh;
+    
+    
+}
+.portfolio3 {
+    background-image: url(../img/turism.jpg);
+    height: 58vh;
+}
+
+.portfolio4 {
+    background-image: url(../img/webprog.png);
+    height: 58vh;
+}
+
+.portfolio5 {
+    background-image: url(../img/lia.png);
+    height: 58vh;
+}
+
+.portfolio6 {
+    background-image: url(../img/avia.png);
+    height: 58vh;
+}
